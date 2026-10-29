@@ -2,7 +2,7 @@
 
 **从喜欢的 IP、主题和参考图出发，制作海报，再把评分编成自己的文化刊物。**
 
-一个可在本地运行的原生 JavaScript 工作台。暖纸白、红黑构成、不对称网格，输出独立可用的音乐与动画游戏档案。仓库只含原创几何图形与虚构数据，不附带任何个人收藏、账号、角色海报或第三方 IP 素材。
+一个可在本地运行的原生 JavaScript 工作台。暖纸白、红黑构成、不对称网格，输出独立可用的音乐与动画游戏档案。默认模板使用原创几何图形与虚构数据，不包含个人收藏或账号。另附一个独立的亚瑟海报案例，展示从官方参考图到生成成稿的过程，素材来源与许可范围单独标注。
 
 ## 快速开始
 
@@ -20,6 +20,18 @@ npm start
 - 也可以直接下载仓库后双击 `examples/site/index.html`，无需启动工作台。
 - 工作台顶部点击“填入示例并试做”，确认替换草稿，随后点“03 / 评分与出刊”即可看到每册 32 条虚构记录。
 - 示例使用原创几何封面，不含第三方 IP 海报。海报设计工作流另见下一节。
+
+## 真实海报案例：Arthur Morgan
+
+[查看原图与成稿对照](examples/arthur/index.html) · [制作要求与修改过程](examples/arthur/PROMPT.md)
+
+运行工作台后，点击顶部“亚瑟：原图 → 海报”，或直接双击 `examples/arthur/index.html`。GitHub 上的 HTML 链接显示源码；在电脑上打开下载的 HTML 才是实际网页。
+
+| 官方参考图 | 生成成稿 |
+| --- | --- |
+| ![官方举枪姿势参考](examples/arthur/reference.jpg) | ![无五官几何色块海报](examples/arthur/poster.png) |
+
+参考图来自 [Rockstar 官方文章](https://www.rockstargames.com/newswire/article/ak14o883885888/red-dead-redemption-2-recognized-by-the-steam-awards)。成稿使用图像生成工具辅助制作，保留举枪透视，将人物及背景处理为无字、无五官的极简色块。第三方游戏素材和角色不在 MIT 代码许可的授权范围内。
 
 ## 从参考到出刊
 
