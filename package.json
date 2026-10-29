@@ -1,0 +1,1 @@
+{"name":"archive-press","version":"0.1.0","private":true,"type":"module","description":"Reference-to-poster workflow and portable personal ratings archives","scripts":{"start":"node scripts/serve.mjs","test":"node --test","build":"node scripts/build.mjs"},"engines":{"node":">=20"},"license":"MIT"}
